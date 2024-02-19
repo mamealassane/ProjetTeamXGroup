@@ -1,0 +1,54 @@
+/* AddUser.css */
+.centered-form {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .centered-form form {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+} */
+
+ /* h1 {
+    position: absolute;
+    top: 20%;
+} */
+
+.centered-form input,
+.centered-form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.centered-form button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.centered-form button:hover {
+    background-color: #0056b3;
+}
+
+.centered-form form {
+    width: 400px; /* Augmenter la largeur du formulaire */
+    padding: 30px; /* Augmenter les marges intérieures */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.centered-form h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2em; /* Augmenter la taille de la police */
+}
